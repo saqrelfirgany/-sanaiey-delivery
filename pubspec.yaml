@@ -1,0 +1,108 @@
+name: sanaiey
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  flutter_plugin_android_lifecycle: ^1.0.3
+  get: ^4.6.1
+  get_storage: ^2.0.3
+  flutter_screenutil: ^5.1.1
+  intl: ^0.17.0
+  shared_preferences: ^2.0.13
+  flutter_spinkit: ^5.1.0
+  smooth_page_indicator: ^1.0.0+2
+  google_maps_flutter: any
+  geolocator: ^5.3.2+2
+  geocoding: ^2.0.4
+  ###################################################
+  dio: ^4.0.6
+  clippy_flutter:
+  #  smooth_star_rating:
+  material_design_icons_flutter:
+  localize_and_translate:
+  carousel_slider:
+  flutter_neumorphic:
+  shimmer:
+  flutter_share:
+  flutter_offline:
+  pin_code_text_field:
+  #  geocoder:
+  plugin_platform_interface: 2.1.2
+  #  location:
+  #  geolocator:
+  provider:
+  flutter_bloc:
+  crypto:
+  # firebase_messaging:
+  carousel_pro:
+  page_transition:
+  # firebase_core :
+  cupertino_icons: ^1.0.2
+  flutter_rating_bar: ^4.0.1
+  fluttertoast: ^8.0.9
+  image_picker: ^0.6.2+3
+  path: ^1.8.0
+  animated_bottom_navigation_bar: ^1.1.0
+  location: ^4.3.0
+  permission_handler: ^7.0.0
+  date_picker_timeline: ^1.2.3
+  whatsapp_unilink: ^2.0.1+1
+  url_launcher: ^6.0.10
+  flutter_launch: ^0.3.0
+  rename: ^2.0.1
+  firebase_core: any
+  firebase_messaging: any
+  flutter_local_notifications: ^9.5.3+1
+#  firebase_performance_platform_interface: ^0.1.1+27
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+dependency_overrides:
+  firebase_messaging_platform_interface: any
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo_3.png"
+  adaptive_icon_foreground: "assets/app_logo_3.png"
+  adaptive_icon_background: "#FFFFFF"
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/langs/
+    - assets/icon/
+  fonts:
+    - family: LibreBasker
+      fonts:
+        - asset: assets/fonts/LibreBaskerville-Regular.ttf
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Regular.ttf
+
+    - family: sanaiey
+      fonts:
+        - asset: assets/fonts/sanaiey.ttf
